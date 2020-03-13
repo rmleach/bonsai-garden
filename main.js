@@ -40,7 +40,7 @@ const drawTree = (startX, startY, len, angle, branchWidth, color1, color2) => {
   ctx.restore();
 }
 
-drawTree(canvas.width / 2, canvas.height - 95, 130, 0, 25, 'brown', 'green');
+drawTree(canvas.width / 2, canvas.height - 70, 130, 0, 25, 'brown', 'green');
 
 const generateRandomTree = () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
