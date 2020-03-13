@@ -40,7 +40,7 @@ const drawTree = (startX, startY, len, angle, branchWidth, color1, color2) => {
   ctx.restore();
 }
 
-drawTree(canvas.width / 2, canvas.height - 70, 130, 0, 25, 'brown', 'green');
+drawTree(canvas.width / 2, canvas.height - 60, 130, 0, 25, 'brown', 'green');
 
 const generateRandomTree = () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -53,7 +53,7 @@ const generateRandomTree = () => {
   
   generateButton.style.background = color1;
   
-  drawTree(centerPointX, canvas.height - 80, len, angle, branchWidth, color1, color2);
+  drawTree(centerPointX, canvas.height - 55, len, angle, branchWidth, color1, color2);
 }
 
 generateButton.addEventListener('click', generateRandomTree);
